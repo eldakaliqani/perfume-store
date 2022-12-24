@@ -94,3 +94,139 @@ header .nav-menu .nav-buttons a.button:hover {
      background-color: black;
      color: rgb(254, 107, 61);
 }
+
+footer {
+     width: 100vw;
+     padding: 25px 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+footer .footer-top-part {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+}
+
+footer .footer-top-part .left-side {
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+footer .footer-top-part .left-side h2 {
+     font-size: 1.3em;
+     padding-bottom: 7px;
+}
+
+footer .footer-top-part .left-side h3 {
+     font-size: 0.7em;
+     color: rgb(50, 50, 50);
+}
+
+footer .footer-top-part .middle-side {
+     width: 30%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     position: relative;
+}
+
+footer .footer-top-part .middle-side::before {
+     content: "";
+     position: absolute;
+     height: 75px;
+     width: 2px;
+     left: 10%;
+     display: flex;
+     align-items: center;
+     background-color: rgb(90, 90, 90);
+     opacity: 0.25;
+}
+
+footer .footer-top-part .middle-side::after {
+     content: "";
+     position: absolute;
+     height: 75px;
+     width: 2px;
+     right: 10%;
+     display: flex;
+     align-items: center;
+     background-color: rgb(90, 90, 90);
+     opacity: 0.25;
+}
+
+footer .footer-top-part .middle-side img {
+     width: 110px;
+}
+
+footer .footer-top-part .right-side {
+     width: 30%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+}
+
+footer .footer-top-part .right-side .follow-us h2 {
+     font-size: 1em;
+     padding-bottom: 7px;
+}
+
+footer .footer-top-part .right-side .follow-us-icons a,
+footer .footer-top-part .right-side .follow-us-icons img {
+     width: 12px;
+     margin: 0px 8px;
+}
+
+footer .footer-bottom-part {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     text-align: center;
+     font-size: 0.7em;
+     position: relative;
+}
+
+footer .footer-bottom-part::before {
+     content: "";
+     position: absolute;
+     height: 2px;
+     width: 100%;
+     top: 40%;
+     display: flex;
+     justify-content: center;
+     background-color: rgb(90, 90, 90);
+     opacity: 0.25;
+}
+
+footer .footer-bottom-part .left-side {
+     width: 30%;
+     text-align: center;
+}
+
+footer .footer-bottom-part .middle-side {
+     width: 30%;
+     text-align: center;
+}
+
+footer .footer-bottom-part .right-side {
+     width: 30%;
+     text-align: center;
+}
+
+footer .footer-bottom-part .right-side img {
+     width: 32px;
+}
