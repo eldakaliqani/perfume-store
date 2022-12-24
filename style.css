@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+a,
+a::before,
+a::after {
+     text-decoration: none;
+     color: white;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     overflow-x: hidden;
+     font-family: "Comfortaa", cursive;
+     background-color: rgb(230, 230, 230);
+}
+
+::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+     background-color: transparent;
+     border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+     width: 10px;
+     background-color: rgb(230, 230, 230);
+}
+
+::-webkit-scrollbar-thumb {
+     border-radius: 12px;
+     background-color: rgb(230, 230, 230);
+     background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(rgb(196, 186, 186)), to(rgb(160, 160, 160)), color-stop(0.8, rgb(182, 182, 182)));
+}
+
+header {
+     padding: 0 100px;
+}
+
+header .nav-menu {
+     height: 10vh;
+     width: 100%;
+     margin: 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     overflow: hidden;
+}
+
+header .nav-menu .nav-logo a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+header .nav-menu .nav-logo a img {
+     width: 90px;
+}
+
+header .nav-menu .nav-links a {
+     color: black;
+     font-size: 0.9em;
+     font-weight: 600;
+     transition: color 0.3s;
+}
+
+header .nav-menu .nav-links a:hover {
+     color: rgb(254, 107, 61);
+}
+
+header .nav-menu .nav-links a#products {
+     padding: 0 25px;
+}
+
+header .nav-menu .nav-buttons a.button {
+     color: rgb(0, 0, 0);
+     background-color: rgb(254, 107, 61);
+     transition: color 0.35s, background-color 0.35s;
+     padding: 10px 15px;
+     font-weight: 900;
+     border-radius: 30px;
+     font-size: 0.8em;
+}
+
+header .nav-menu .nav-buttons a.button:hover {
+     background-color: black;
+     color: rgb(254, 107, 61);
+}
