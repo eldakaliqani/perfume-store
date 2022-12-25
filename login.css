@@ -1,0 +1,161 @@
+header {
+    background-color: black;
+    -webkit-animation: 1s ease-out 0s 1 fade-in;
+    animation: 1s ease-out 0s 1 fade-in;
+}
+
+header .nav-menu {
+    background-color: black;
+    color: white;
+}
+
+header .nav-menu .nav-links a {
+    color: rgb(254, 107, 61);
+    transition: color 0.3s;
+}
+
+header .nav-menu .nav-links a:hover {
+    color: white;
+}
+
+header .nav-buttons a#signup-btn {
+    font-weight: bold;
+    color: black;
+}
+
+header .nav-buttons a#signup-btn:hover {
+    background-color: rgb(21, 21, 21);
+    color: rgb(254, 107, 61);
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(10, 10, 10);
+    -webkit-animation: 1s ease-out 0s 1 fade-in;
+    animation: 1s ease-out 0s 1 fade-in;
+}
+
+main .login-container {
+    height: 70vh;
+    width: 65vw;
+    background-color: rgb(141, 190, 190);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3), 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    background-image: url("images/login-signup-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+main .login-container .login-section {
+    width: 40%;
+    height: 85%;
+    background-color: rgb(10, 10, 10);
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3), 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .login-container .login-section .login-wrapper {
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+main .login-container .login-section .login-wrapper h1 {
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    font-size: 2.7em;
+}
+
+main .login-container .login-section .login-wrapper input {
+    width: 250px;
+    height: 40px;
+    border-radius: 2px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+}
+
+main .login-container .login-section .login-wrapper ::-moz-placeholder {
+    color: white;
+}
+
+main .login-container .login-section .login-wrapper :-ms-input-placeholder {
+    color: white;
+}
+
+main .login-container .login-section .login-wrapper ::placeholder {
+    color: white;
+}
+
+main .login-container .login-section .login-wrapper input#username-input {
+    margin-bottom: 10px;
+}
+
+main .login-container .login-section .login-wrapper button {
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    outline: none;
+    background-color: rgb(254, 107, 61);
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    transition: background-color ease-out 0.3s, color ease-out 0.3s;
+}
+
+main .login-container .login-section .login-wrapper button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(254, 107, 61);
+}
+
+main .login-container .login-section .login-wrapper h2 {
+    font-size: 1em;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+main .login-container .login-section .login-wrapper h3 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+main .login-container .login-section .login-wrapper h3 a {
+    color: rgb(254, 107, 61);
+    transition: color 0.3s;
+}
+
+main .login-container .login-section .login-wrapper h3 a:hover {
+    color: white;
+}
+
+main .login-container .blank-section {
+    width: 45%;
+    height: 85%;
+}
+
