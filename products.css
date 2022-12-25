@@ -47,6 +47,150 @@ main {
     position: relative;
 }
 
+main::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: rgb(254, 107, 61);
+    opacity: 0.75;
+    top: 10%;
+    left: 20%;
+}
+
+main::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: rgb(254, 107, 61);
+    opacity: 0.9;
+    top: 10%;
+    left: 80%;
+}
+
+main .our-store {
+    padding: 200px 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .our-store h1 {
+    font-size: 2.8em;
+}
+
+main .our-store .our-store-images-top {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .our-store .our-store-images-top .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main .our-store .our-store-images-top .cards .five-stars-img {
+    height: 20px;
+    width: 100px;
+    margin: 10px 0 15px 0;
+}
+
+main .our-store .our-store-images-top .cards h1 {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+main .our-store .our-store-images-top .cards h2 {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(254, 107, 61);
+    padding-bottom: 15px;
+}
+
+main .our-store .our-store-images-top .cards a.button {
+    padding: 12px 20px;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: color ease-out 0.3s, background-color ease-out 0.3s;
+}
+
+main .our-store .our-store-images-top .cards a.button:hover {
+    background-color: black;
+    color: rgb(254, 107, 61);
+}
+
+main .our-store .our-store-images-top .cards img.store-perfumes {
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 0 2px 1px rgb(117, 117, 117);
+}
+
+main .our-store .our-store-images-bottom {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .our-store .our-store-images-bottom .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main .our-store .our-store-images-bottom .cards .five-stars-img {
+    height: 20px;
+    width: 100px;
+    margin: 10px 0 15px 0;
+}
+
+main .our-store .our-store-images-bottom .cards h1 {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+main .our-store .our-store-images-bottom .cards h2 {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(254, 107, 61);
+    padding-bottom: 15px;
+}
+
+main .our-store .our-store-images-bottom .cards a.button {
+    padding: 12px 20px;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: color ease-out 0.3s, background-color ease-out 0.3s;
+}
+
+main .our-store .our-store-images-bottom .cards a.button:hover {
+    background-color: black;
+    color: rgb(254, 107, 61);
+}
+
+main .our-store .our-store-images-bottom .cards img.store-perfumes {
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 0 2px 1px rgb(117, 117, 117);
+}
 
 main .body-spray-container {
     width: 100vw;
