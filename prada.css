@@ -1,0 +1,196 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+main .product-container {
+    width: 100vw;
+    padding: 75px 100px 200px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .product-container .product-image {
+    width: 45%;
+}
+
+main .product-container .product-image img {
+    width: 35vw;
+    height: 500px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+main .product-container .product-description {
+    width: 50%;
+    height: 5vh;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+main .product-container .product-description h1 {
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
+
+main .product-container .product-description h3 {
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+main .product-container .product-description h2 {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+main .product-container .product-description h2::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(254, 107, 61);
+    bottom: 0;
+    left: 0;
+}
+
+main .product-container .product-description p {
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+main .product-container .product-description h4 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding-bottom: 75px;
+    color: rgb(254, 107, 61);
+}
+
+main .product-container .product-description a.button {
+    width: 45%;
+    padding: 20px 70px;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: background-color ease-out 0.3s, color ease-out 0.3s;
+}
+
+main .product-container .product-description a.button:hover {
+    background-color: white;
+    color: black;
+}
+
+main .product-container .product-description a.button#add-to-cart-btn {
+    margin-right: 30px;
+}
+
+main .product-container .product-description a.button#buy-now-btn {
+    padding: 20px 85px;
+}
+
+main .recommended-section {
+    width: 100vw;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .recommended-section h1 {
+    padding-bottom: 100px;
+}
+
+main .recommended-section .recommended-images {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 250px;
+    position: relative;
+}
+
+main .recommended-section .recommended-images::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 100px;
+    bottom: 0;
+    right: 50%;
+    margin-right: -50px;
+}
+
+main .recommended-section .recommended-images a {
+    transition: transform 0.25s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+main .recommended-section .recommended-images a:hover {
+    -webkit-animation: zoom-in-zoom-out 0.25s ease;
+    animation: zoom-in-zoom-out 0.25s ease;
+    transform: scale(1.02);
+}
+
+main .recommended-section .recommended-images a img {
+    width: 250px;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border: 2px solid black;
+    box-shadow: 0 0 2px 1px rgb(117, 117, 117);
+}
+
+main .client-showcase {
+    width: 100vw;
+    padding: 100px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .client-showcase .client-showcase-title h1 {
+    position: relative;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+main .client-showcase .client-showcase-title h1::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(254, 107, 61);
+}
+
+main .client-showcase .client-showcase-brands {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0 100px 0;
+}
+
+main .client-showcase .client-showcase-brands img {
+    width: 120px;
+    height: 80px;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+
+main .client-showcase .client-showcase-brands img.prada-img {
+    width: 200px;
+    height: 40px;
+}
