@@ -1,0 +1,163 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/products-header-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-animation: 1s ease-out 0s 1 fade-in;
+    animation: 1s ease-out 0s 1 fade-in;
+}
+
+header .nav-links a#products {
+    font-weight: 800;
+    color: rgb(254, 107, 61);
+}
+
+header .nav-links a#products:hover {
+    color: black;
+}
+
+header .header-description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-description h3 {
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+
+header .header-description h1 {
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 70px;
+    text-align: center;
+}
+
+main {
+    width: 100vw;
+    padding: 120px 0;
+    position: relative;
+}
+
+
+main .body-spray-container {
+    width: 100vw;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("images/body-spray-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+main .body-spray-container::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: rgb(254, 107, 61);
+    opacity: 0.75;
+    top: 0;
+    left: 50%;
+    margin-left: -20px;
+}
+
+main .body-spray-container img {
+    width: 30vw;
+}
+
+main .body-spray-container .body-spray-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -100px;
+}
+
+main .body-spray-container .body-spray-description h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+}
+
+main .body-spray-container .body-spray-description h2 {
+    padding: 30px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgb(254, 107, 61);
+}
+
+main .body-spray-container .body-spray-description a.button {
+    padding: 10px 18px;
+    border: 2px solid rgb(254, 107, 61);
+    color: rgb(254, 107, 61);
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    transition: 0.3s background-color, 0.3s color;
+    width: 120px;
+    text-align: center;
+}
+
+main .body-spray-container .body-spray-description a.button:hover {
+    background-color: rgb(254, 107, 61);
+    color: white;
+}
+
+main .client-showcase {
+    width: 100vw;
+    padding: 100px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .client-showcase .client-showcase-title h1 {
+    position: relative;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+main .client-showcase .client-showcase-title h1::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(254, 107, 61);
+}
+
+main .client-showcase .client-showcase-brands {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0 100px 0;
+}
+
+main .client-showcase .client-showcase-brands img {
+    width: 120px;
+    height: 80px;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+
+main .client-showcase .client-showcase-brands img.prada-img {
+    width: 200px;
+    height: 40px;
+}
+
+.divider {
+    width: 100%;
+    background-color: aqua;
+}
