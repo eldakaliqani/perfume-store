@@ -1,4 +1,5 @@
 header {
+    padding: 0 100px;
     background-color: black;
     -webkit-animation: 1s ease-out 0s 1 fade-in;
     animation: 1s ease-out 0s 1 fade-in;
@@ -18,12 +19,12 @@ header .nav-menu .nav-links a:hover {
     color: white;
 }
 
-header .nav-buttons a#signup-btn {
+header .nav-menu .nav-buttons a#login-btn {
     font-weight: bold;
     color: black;
 }
 
-header .nav-buttons a#signup-btn:hover {
+header .nav-menu .nav-buttons a#login-btn:hover {
     background-color: rgb(21, 21, 21);
     color: rgb(254, 107, 61);
 }
@@ -67,17 +68,16 @@ main .login-container .login-section {
 }
 
 main .login-container .login-section .login-wrapper {
+    width: 77%;
     height: 80%;
     color: white;
-    display: flex;
-    flex-direction: column;
     padding-left: 50px;
 }
 
 main .login-container .login-section .login-wrapper h1 {
     letter-spacing: 1px;
-    padding-bottom: 20px;
-    font-size: 2.7em;
+    padding-bottom: 30px;
+    font-size: 2.3em;
 }
 
 main .login-container .login-section .login-wrapper input {
@@ -96,6 +96,16 @@ main .login-container .login-section .login-wrapper input {
     font-size: 0.9em;
 }
 
+main .login-container .login-section .login-wrapper input#firstname-input {
+    width: 125px;
+    margin-bottom: 10px;
+}
+
+main .login-container .login-section .login-wrapper input#lastname-input {
+    width: 125px;
+    margin-bottom: 10px;
+}
+
 main .login-container .login-section .login-wrapper ::-moz-placeholder {
     color: white;
 }
@@ -108,7 +118,7 @@ main .login-container .login-section .login-wrapper ::placeholder {
     color: white;
 }
 
-main .login-container .login-section .login-wrapper input#username-input {
+main .login-container .login-section .login-wrapper input#email-input {
     margin-bottom: 10px;
 }
 
@@ -135,13 +145,13 @@ main .login-container .login-section .login-wrapper button:hover {
 }
 
 main .login-container .login-section .login-wrapper h2 {
-    font-size: 1em;
+    font-size: .9em;
     padding-bottom: 20px;
     text-align: center;
 }
 
 main .login-container .login-section .login-wrapper h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -159,4 +169,4 @@ main .login-container .blank-section {
     height: 85%;
 }
 
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=signup.css.map */
