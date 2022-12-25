@@ -33,17 +33,28 @@
       <main>
          <div class="login-container">
             <div class="login-section">
-               <div class="login-wrapper">
-                  <h1>Log In</h1>
-                  <input type="text" placeholder="Email" required id="username-input" />
-                  <input type="password" placeholder="Password" required id="password-input" />
-                  <button>Log In</button>
-                  <h2>No account? Create one</h2>
-                  <h3><a href="signup.html" class="register">Register </a></h3>
-               </div>
+               <form action="" method="GET" id="login-form">
+                  <div class="login-wrapper">
+                     <h1>Log In</h1>
+                     <div class="login-submit-success"></div>
+                     <div class="input-wrapper">
+                        <input id="login-username" name="username" type="text" placeholder="Username" />
+                        <span class="username-error error-msg"></span>
+                     </div>
+                     <div class="input-wrapper">
+                        <input id="login-password" name="password" type="password" placeholder="Password" />
+                        <span class="password-error error-msg"></span>
+                     </div>
+                     <button>Log In</button>
+                     <h2>No account? Create one</h2>
+                     <h3><a href="signup.html" class="register">Register </a></h3>
+                  </div>
+               </form>
             </div>
             <div class="blank-section"></div>
          </div>
       </main>
+
+      <script src="login.js"></script>
    </body>
 </html>
