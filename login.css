@@ -80,6 +80,23 @@ main .login-container .login-section .login-wrapper h1 {
     font-size: 2.7em;
 }
 
+main .login-container .login-section #login-form .login-wrapper .login-submit-success {
+    display: none;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    text-align: center;
+    background: rgb(20, 123, 20);
+    color: #fff;
+    padding: 10px 5px;
+}
+
+main .login-container .login-section #login-form .login-wrapper .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
 main .login-container .login-section .login-wrapper input {
     width: 250px;
     height: 40px;
@@ -94,6 +111,11 @@ main .login-container .login-section .login-wrapper input {
     background: none;
     font-family: "Montserrat", sans-serif;
     font-size: 0.9em;
+}
+
+main .login-container #login-form .login-wrapper .input-wrapper .error-msg {
+    font-size: 0.7em;
+    color: red;
 }
 
 main .login-container .login-section .login-wrapper ::-moz-placeholder {
